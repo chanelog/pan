@@ -135,7 +135,7 @@ DROPBEAR_URL="${BIN_REPO}/dropbear-master.zip"
 STUNNEL_URL="${BIN_REPO}/stunnel-master.zip"
 SLOWDNS_URL="https://raw.githubusercontent.com/khaledagn/AGN-UDP/main/sldns-server"
 
-SCRIPT_VERSION="1.8"
+SCRIPT_VERSION="1.0"
 SCRIPT_URL="https://raw.githubusercontent.com/chanelog/max/main/setup-max.sh"
 VERSION_URL="https://raw.githubusercontent.com/chanelog/max/main/version-max.txt"
 
