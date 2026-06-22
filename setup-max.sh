@@ -136,8 +136,8 @@ STUNNEL_URL="${BIN_REPO}/stunnel-master.zip"
 SLOWDNS_URL="https://raw.githubusercontent.com/khaledagn/AGN-UDP/main/sldns-server"
 
 SCRIPT_VERSION="1.0"
-SCRIPT_URL="https://raw.githubusercontent.com/chanelog/max/main/setup-max.sh"
-VERSION_URL="https://raw.githubusercontent.com/chanelog/max/main/version-max.txt"
+SCRIPT_URL="https://raw.githubusercontent.com/chanelog/pan/main/setup-max.sh"
+VERSION_URL="https://raw.githubusercontent.com/chanelog/pan/main/version-max.txt"
 
 # ════════════════════════════════════════════════════════════
 #  TEMA — 15 PREMIUM (struktur identik dengan ogh-ziv)
