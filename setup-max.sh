@@ -64,7 +64,7 @@ STUNNEL_URL="${BIN_REPO}/stunnel-master.zip"
 WS_TUNNEL_URL="${BIN_REPO}/ws_tunnel.py"
 WS_SSH_SERVER_URL="${BIN_REPO}/ws-ssh-server.py"
 SLOWDNS_URL="https://raw.githubusercontent.com/khaledagn/AGN-UDP/main/sldns-server"
-SCRIPT_VERSION="1.9"
+SCRIPT_VERSION="2.0"
 SCRIPT_URL="https://raw.githubusercontent.com/chanelog/pan/main/setup-max.sh"
 VERSION_URL="https://raw.githubusercontent.com/chanelog/pan/main/version-max.txt"
 
