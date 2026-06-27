@@ -64,7 +64,7 @@ STUNNEL_URL="${BIN_REPO}/stunnel-master.zip"
 WS_TUNNEL_URL="${BIN_REPO}/ws_tunnel.py"
 WS_SSH_SERVER_URL="${BIN_REPO}/ws-ssh-server.py"
 SLOWDNS_URL="https://raw.githubusercontent.com/khaledagn/AGN-UDP/main/sldns-server"
-SCRIPT_VERSION="2.2"
+SCRIPT_VERSION="2.3"
 SCRIPT_URL="https://raw.githubusercontent.com/chanelog/pan/main/setup-max.sh"
 VERSION_URL="https://raw.githubusercontent.com/chanelog/pan/main/version-max.txt"
 
@@ -2751,7 +2751,7 @@ main_menu() {
     while true; do
         show_header
         echo -e "  ${A1}${_DASH}${NC}"
-        echo -e "  ${A1}     +------------ ${BLD}${AL}MAX PANEL MAIN MENU${NC} ${A1}------------+${NC}"
+        echo -e "    ${A1}  +------------ ${BLD}${AL}MAX PANEL MAIN MENU${NC} ${A1}------------+${NC}"
         echo -e "  ${A1}${_DASH}${NC}"; echo ""
         _r2() { echo -e "  ${1}${3}${NC}  ${A1}│${NC}  ${2}${4}${NC}"; }
         _r2 "${A2}" "${A2}" "[1]  🛡  SSH / OpenSSH + WS-SSH " "[2]  🔐  OpenVPN"
