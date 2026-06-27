@@ -64,7 +64,7 @@ STUNNEL_URL="${BIN_REPO}/stunnel-master.zip"
 WS_TUNNEL_URL="${BIN_REPO}/ws_tunnel.py"
 WS_SSH_SERVER_URL="${BIN_REPO}/ws-ssh-server.py"
 SLOWDNS_URL="https://raw.githubusercontent.com/khaledagn/AGN-UDP/main/sldns-server"
-SCRIPT_VERSION="2.1"
+SCRIPT_VERSION="2.2"
 SCRIPT_URL="https://raw.githubusercontent.com/chanelog/pan/main/setup-max.sh"
 VERSION_URL="https://raw.githubusercontent.com/chanelog/pan/main/version-max.txt"
 
@@ -290,7 +290,7 @@ draw_vps() {
     ovpn_b=$(svc_badge openvpn); wg_b=$(svc_badge "wg-quick@wg0")
 
     # Baris 1: SSH:22 | Dropbear:109,143 | Stunnel:445,777 | Nginx | WS-SSH
-    _btn "  ${DIM}SSH${NC}${ssh_b}${Y}:22${NC} ${DIM}DR${NC}${dr_b}${Y}:109,143${NC} ${DIM}STN${NC}${stun_b}${Y}:445,777${NC}  ${A1}│${NC}  ${DIM}NGX${NC}${ngx_b}${Y}:80/443/8443${NC}  ${DIM}WS${NC}${ws_b}${Y}:/ws-ssh${NC}"
+    _btn "  ${DIM}SSH${NC}${ssh_b}${Y}:22${NC} ${DIM}DR${NC}${dr_b}${Y}:109,143${NC} ${DIM}STN${NC}${stun_b}${Y}:445,777${NC} ${A1} ${NC} ${DIM}NGX${NC}${ngx_b}${Y}:80/443/8443${NC}  ${DIM}WS${NC}${ws_b}${Y}:/ws-ssh${NC}"
     # Baris 2: Xray | Trojan-Go | Hysteria | OpenVPN | WireGuard → info protokol
     _btn "  ${DIM}XRY${NC}${xray_b} ${DIM}TGO${NC}${tgo_b}${Y}:2087${NC} ${DIM}HY${NC}${hy_b}${Y}:36712${NC} ${DIM}OVPN${NC}${ovpn_b}${Y}:1194/2200${NC} ${DIM}WG${NC}${wg_b}${Y}:51820${NC}"
 
